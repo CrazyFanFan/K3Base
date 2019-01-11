@@ -9,7 +9,7 @@
 import Foundation
 
 public class K3Base<BaseType> {
-    var base: BaseType
+    public var base: BaseType
     init(_ base: BaseType) {
         self.base = base
     }

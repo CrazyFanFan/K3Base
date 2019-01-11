@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "K3Base"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.summary     = "A Simple way to use k3 extension."
   s.description = <<-DESC
       A Simple way to use k3 extension, eg. KKUIDevice
@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.source_files= "Sources/*.swift"
   s.requires_arc      = true
   s.static_framework  =  true
+  s.swift_version     = '4.2'
 end
