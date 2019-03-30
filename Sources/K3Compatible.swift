@@ -22,11 +22,11 @@ public protocol K3BaseCompatible {
 }
 
 public extension K3BaseCompatible {
-    public var k3: K3Base<Self> {
+    var k3: K3Base<Self> {
         return K3Base(self)
     }
 
-    public static var k3: K3Base<Self>.Type {
+    static var k3: K3Base<Self>.Type {
         return K3Base.self
     }
 }
